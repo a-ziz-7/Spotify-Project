@@ -22,6 +22,7 @@ def a():
     r_r = r.json()
     return r_r
 
+
 if __name__ == '__main__':
     r = a()
     print(r)

@@ -1,5 +1,5 @@
 import requests
-# get private data from credentials
+# get private data from credentials file
 from credentials import token, client_id, lms, analysis
 
 # main file

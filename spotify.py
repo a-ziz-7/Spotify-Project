@@ -1,8 +1,6 @@
 import requests
 from credentials import token, client_id, lms, analysis
 
-### u8o56z7ik44qt8mlvmr191t2m ###
-
 def create_playlist(name, public):
     response = requests.post(
         lms,

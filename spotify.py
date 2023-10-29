@@ -23,7 +23,5 @@ def a():
 
 
 if __name__ == '__main__':
-    # z = create_playlist("Tutorial playlist", False)
-    # print(z)
     r = a()
     print(r)

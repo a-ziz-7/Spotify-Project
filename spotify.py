@@ -16,6 +16,7 @@ def create_playlist(name, public):
     json_resp = response.json()
     return json_resp
 
+
 def a():
     r = requests.post(analysis, f"Bearer {token}")
     r_r = r.json()
